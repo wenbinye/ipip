@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="Chaozhuo">
+    <description>The coding standard for Chaozhuo Tech.</description>
+    <file>./src</file>
+    <exclude-pattern>*/tests/*</exclude-pattern>
+    <arg value="np"/>
+    <rule ref="PSR2" />
+</ruleset>

@@ -1,0 +1,32 @@
+{
+    "name": "wenbinye/ipip",
+    "description": "get the ip location in Chinese",
+	"keywords": ["ip", "location", "chinese"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ye Wenbin",
+            "email": "wenbinye@163.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"ipip\\": "src/"
+		}
+	},
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "zhuzhichao/ip-location-zh": "^2.0",
+        "squizlabs/php_codesniffer": "^2.5",
+        "phpunit/phpunit": "^5.3"
+    },
+    "scripts": {
+        "test": [
+            "@phpunit",
+            "@phpcs"
+        ],
+        "phpunit": "php vendor/bin/phpunit",
+        "phpcs": "php vendor/bin/phpcs"
+    }
+}
